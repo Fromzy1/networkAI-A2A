@@ -46,21 +46,21 @@ ntsctAI-a2a/
 ```bash
 git clone https://github.com/your-org/ntsctAI-a2a.git
 cd ntsctAI-a2a
-
+```
 2. Environment setup
 
 Install dependencies:
-
+```bash
 pip install -r requirements.txt
-
+```
 Create .env:
-
+```
 OPENAI_API_KEY=your_openai_key_here
-
+```
 3. Run the demo
-
+```bash
 python main.py
-
+```
 You’ll be prompted for a natural language query. The system runs the following chain:
 
 User → PlannerAgent → ElasticAgent → VizAgent → Chart Display
@@ -104,7 +104,7 @@ Inspired by ideas from MCP (Model Context Protocol) and A2A architectures.
 
 📬 Contact
 
-Maintainer: [Your Name]
-Email: [your.email@example.com]
+Maintainer: [fromzy]
+Mail: [fromzy at gmail dot com]
 Project status: Research-grade, evolving toward production.
 
