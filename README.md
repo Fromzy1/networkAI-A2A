@@ -69,7 +69,7 @@ You’ll be prompted for a natural language query. The system runs the following
  ------         --------------        --------------        -----------         ---------------
 ````
 
-⸻
+---
 
 🧩 Example Queries
 
@@ -78,14 +78,14 @@ You’ll be prompted for a natural language query. The system runs the following
 > - List the top 3 clients generating DNS traffic to 8.8.8.8.
 
 
-⸻
+---
 
 🔐 SACMP Compatibility (Planned)
 	•	All messages support digital signatures per agent.
 	•	Memory entries (e.g., vector results, plans) will be agent-signed.
 	•	Replay protection, schema fingerprinting, and provenance are in scope.
 
-⸻
+---
 
 🧱 Extending
 
@@ -96,14 +96,14 @@ You’ll be prompted for a natural language query. The system runs the following
 >Transport	Real A2A: Redis, MQTT, or REST messaging bus
 
 
-⸻
+---
 
 🤝 License & Credits
 
 - MIT License
 - Inspired by ideas from MCP (Model Context Protocol) and A2A architectures.
 
-⸻
+---
 
 📬 Contact
 
