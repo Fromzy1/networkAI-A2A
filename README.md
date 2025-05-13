@@ -17,7 +17,7 @@
 ---
 
 ## 📂 Project Structure
-
+```text
 ntsctAI-a2a/
 ├── agents/
 │   ├── planner_agent.py        # Understands intent and plans actions
@@ -36,7 +36,7 @@ ntsctAI-a2a/
 ├── user_interface.py           # CLI or future API for user interaction
 ├── main.py                     # Manual A2A orchestrator chain
 ├── .env                        # OpenAI API Key and env config
-
+```
 ---
 
 ## 🚀 Quick Start
