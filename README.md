@@ -63,16 +63,19 @@ python main.py
 ```
 You’ll be prompted for a natural language query. The system runs the following chain:
 
-User → PlannerAgent → ElasticAgent → VizAgent → Chart Display
-
+````
+ ------         --------------        --------------        -----------         ---------------
+| User |   →   | PlannerAgent |   →  | ElasticAgent |   →  |  VizAgent |   →   | Chart Display |
+ ------         --------------        --------------        -----------         ---------------
+````
 
 ⸻
 
 🧩 Example Queries
 
-What are the top 5 servers with the highest packet loss?
-Which IP has the most unique applications served?
-List the top 3 clients generating DNS traffic to 8.8.8.8.
+> - What are the top 5 servers with the highest packet loss?
+> - Which IP has the most unique applications served?
+> - List the top 3 clients generating DNS traffic to 8.8.8.8.
 
 
 ⸻
@@ -86,25 +89,25 @@ List the top 3 clients generating DNS traffic to 8.8.8.8.
 
 🧱 Extending
 
-Component	You can add…
-ElasticAgent	Support for multiple backends (Splunk, Loki)
-VizAgent	Graph export, summary tables, HTML reports
-Message	signature, trace_id, or auth_context fields
-Transport	Real A2A: Redis, MQTT, or REST messaging bus
+>Component	You can add…
+>ElasticAgent	Support for multiple backends (Splunk, Loki)
+>VizAgent	Graph export, summary tables, HTML reports
+>Message	signature, trace_id, or auth_context fields
+>Transport	Real A2A: Redis, MQTT, or REST messaging bus
 
 
 ⸻
 
 🤝 License & Credits
 
-MIT License
-Inspired by ideas from MCP (Model Context Protocol) and A2A architectures.
+- MIT License
+- Inspired by ideas from MCP (Model Context Protocol) and A2A architectures.
 
 ⸻
 
 📬 Contact
 
-Maintainer: [fromzy]
-Mail: [fromzy at gmail dot com]
-Project status: Research-grade, evolving toward production.
+- Maintainer: [fromzy]
+- Mail: [fromzy at gmail dot com]
+- Project status: Research-grade, evolving toward production.
 
