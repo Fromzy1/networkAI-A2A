@@ -1,8 +1,8 @@
-# ntsctAI-A2A
+# networkAI-A2A
 
 **Agent-to-Agent (A2A) AI System for Natural Language to Elasticsearch Querying and Visualization**
 
-`ntsctAI-A2A` is an experimental modular AI system where multiple autonomous agents collaborate to answer natural language queries over Elasticsearch datasets. Inspired by multi-agent architectures and Model Context Protocol (MCP), each agent has a distinct role: planning, data retrieval, and visualization.
+`network-A2A` is an experimental modular AI system where multiple autonomous agents collaborate to answer natural language queries over Elasticsearch datasets. Inspired by multi-agent architectures and Model Context Protocol (MCP), each agent has a distinct role: planning, data retrieval, and visualization.
 
 ---
 
@@ -18,7 +18,7 @@
 
 ## 📂 Project Structure
 ```text
-ntsctAI-a2a/
+networkAI-a2a/
 ├── agents/
 │   ├── planner_agent.py        # Understands intent and plans actions
 │   ├── elastic_agent.py        # Generates and executes ES queries
@@ -44,7 +44,7 @@ ntsctAI-a2a/
 ### 1. Clone and setup
 
 ```bash
-git clone https://github.com/your-org/ntsctAI-a2a.git
+git clone https://github.com/your-org/networkAI-a2a.git
 cd ntsctAI-a2a
 ```
 2. Environment setup
@@ -89,11 +89,11 @@ You’ll be prompted for a natural language query. The system runs the following
 
 🧱 Extending
 
->Component	You can add…
->ElasticAgent	Support for multiple backends (Splunk, Loki)
->VizAgent	Graph export, summary tables, HTML reports
->Message	signature, trace_id, or auth_context fields
->Transport	Real A2A: Redis, MQTT, or REST messaging bus
+> Component	You can add…
+> ElasticAgent	Support for multiple backends (Splunk, Loki)
+> VizAgent	Graph export, summary tables, HTML reports
+> Message	signature, trace_id, or auth_context fields
+> Transport	Real A2A: Redis, MQTT, or REST messaging bus
 
 
 ---
